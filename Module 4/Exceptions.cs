@@ -34,9 +34,10 @@ class Program
         {
             Console.WriteLine("Error occurred.");
         }
-        
+        finally
+        {
         Console.WriteLine("Hit any key to exit..."); //Prompt to exit
         Console.ReadKey(); //Takes user input
-
+        }
     }
 }
